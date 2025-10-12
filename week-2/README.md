@@ -11,7 +11,7 @@ By clustering cities with similar pollution profiles, we can identify which urba
 
 You can view the 5-minute presentation that summarizes this project here:
 
-👉 [View Pitch Deck on Google Slides](https://ai-for-sustainable-citie-egr5byl.gamma.site/)
+👉 [View Pitch Deck](https://ai-for-sustainable-citie-egr5byl.gamma.site/)
 
 *(The pitch deck highlights the SDG 11 problem, the ML approach, results, and social impact.)*
 
