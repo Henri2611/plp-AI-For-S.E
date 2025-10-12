@@ -1,0 +1,17 @@
+# Ignore large or sensitive data files
+pollution.csv
+
+# Ignore temporary Jupyter files
+.ipynb_checkpoints/
+
+# Ignore any output or cache folders
+__pycache__/
+*.pyc
+
+# Ignore system files (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments (if you ever make one)
+env/
+venv/
