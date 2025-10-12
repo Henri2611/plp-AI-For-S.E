@@ -6,6 +6,18 @@ By clustering cities with similar pollution profiles, we can identify which urba
 
 ---
 
+
+## 🎤 Pitch Deck Presentation
+
+You can view the 5-minute presentation that summarizes this project here:
+
+👉 [View Pitch Deck on Google Slides](https://ai-for-sustainable-citie-egr5byl.gamma.site/)
+
+*(The pitch deck highlights the SDG 11 problem, the ML approach, results, and social impact.)*
+
+---
+
+
 ## 🧠 Approach
 We applied **K-Means Clustering (Unsupervised Learning)** on major air pollutants:
 - Nitrogen Dioxide (NO₂)
@@ -49,7 +61,7 @@ A scatter plot (NO₂ vs O₃) displays how cities are grouped by pollution simi
 
 📸 *Example Screenshot:*  
 `/screenshots/air_quality_clusters.png`  
-*(Add a PNG export of your scatter plot here)*
+![Air Quality Clusters](screenshots/air_quality_clusters.png)
 
 ---
 
