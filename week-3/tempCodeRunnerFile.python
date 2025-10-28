@@ -1,0 +1,33 @@
+import os
+
+# Define the main project folder
+project_root = "AI_Tools_Assignment"
+
+# Define subfolders
+folders = [
+    "datasets",
+    "notebooks",
+    "results",
+    "report"
+]
+
+# Create each folder if it doesn't exist
+for folder in folders:
+    path = os.path.join(project_root, folder)
+    os.makedirs(path, exist_ok=True)
+    print(f"✅ Created folder: {path}")
+
+# Create README file
+readme_path = os.path.join(project_root, "README.md")
+if not os.path.exists(readme_path):
+    with open(readme_path, "w") as f:
+        f.write("# AI Tools Assignment: AI Tools and Applications\n\n")
+        f.write("This repository contains the practical implementations and report for the AI Tools Assignment.\n\n")
+        f.write("## Structure\n")
+        f.write("- **datasets/** – contains the datasets used for training and testing.\n")
+        f.write("- **notebooks/** – Jupyter notebooks for each task.\n")
+        f.write("- **results/** – images and screenshots of outputs.\n")
+        f.write("- **report/** – final PDF report with theory and ethics sections.\n")
+    print("✅ Created README.md")
+
+print("\n🎉 Folder setup complete!")

@@ -1,0 +1,67 @@
+# -------------------------
+# Python general ignores
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -------------------------
+# Jupyter & Notebook stuff
+# -------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------
+# Data and model files
+# -------------------------
+datasets/*.csv
+datasets/mnist/
+results/*.h5
+results/*.ckpt
+results/*.npy
+results/*.png
+results/*.jpg
+results/*.jpeg
+
+# -------------------------
+# Reports & PDFs
+# -------------------------
+report/*.pdf
+
+# -------------------------
+# Streamlit & Cache
+# -------------------------
+.streamlit/
+.cache/
+logs/
+**/__pycache__/
+
+# -------------------------
+# OS & Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -------------------------
+# Optional: large local-only files
+# -------------------------
+*.zip
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
