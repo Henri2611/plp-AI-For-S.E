@@ -1,0 +1,7 @@
+Analysis: Comparing AI-Generated and Manual Code
+
+The AI-generated function produced by GitHub Copilot demonstrates a strong sense of generalization and defensive programming. It not only sorts the list of dictionaries efficiently but also includes type validation and error-handling logic. By using methods like .get() and try–except blocks, it ensures that the function can handle missing keys, None values, or mixed data types gracefully. This makes it more robust and ready for integration in larger, real-world projects where data inconsistency is common.
+
+In contrast, the manually written version prioritizes clarity and readability. It assumes uniform input and comparable data, making it easier for humans to follow but less resilient to unexpected input. While both versions produce the same output on clean data, the Copilot-generated implementation exhibits stronger reliability and anticipates potential edge cases that a human developer might overlook under time constraints.
+
+From a development workflow perspective, GitHub Copilot significantly reduced coding time and acted as a knowledge partner, suggesting optimal patterns instantly. However, human understanding remained crucial for code validation, readability, and ethical accountability. Together, these two approaches highlight how AI can complement, not replace, human logic in modern software development.

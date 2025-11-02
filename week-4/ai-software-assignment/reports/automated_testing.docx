@@ -1,0 +1,5 @@
+How AI Improves Test Coverage
+
+AI-powered testing tools like Selenium IDE with smart selectors or Testim.io enhance software testing by increasing both efficiency and accuracy. Traditional manual testing often misses edge cases or breaks when a web page layout changes, but AI can automatically adapt to such changes by recognizing patterns and element behaviors rather than fixed IDs or XPath rules. This reduces maintenance time for test scripts and ensures higher reliability across different versions of the application.
+
+In this assignment, the AI-assisted tool successfully detected both valid and invalid login outcomes by analyzing page responses and element states. It eliminated repetitive human effort and provided clear visual feedback through success and failure reports. Overall, AI improves test coverage by discovering untested paths, minimizing false positives, and allowing testers to focus on complex scenarios instead of routine checks.
